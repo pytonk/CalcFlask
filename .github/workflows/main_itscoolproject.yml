@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ItScoolProject'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BFF4FFE20E1A4A038108178326C108C2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A2F8D0C81BAC4B9482BE9EB4C6560D13 }}
