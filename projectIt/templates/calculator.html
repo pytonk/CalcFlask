@@ -1,0 +1,25 @@
+
+<!-- templates/calculator.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form action="/result" method="post">
+        <label for="num1">Number 1:</label>
+        <input type="number" id="num1" name="num1"><br>
+        <label for="num2">Number 2:</label>
+        <input type="number" id="num2" name="num2"><br>
+        <label for="operator">Select Operator:</label>
+        <select id="operator" name="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
